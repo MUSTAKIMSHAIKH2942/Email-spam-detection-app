@@ -1,4 +1,4 @@
-S# **Spam Detection App**
+## **Spam Detection App**
 
 A **Machine Learning-powered application** for classifying messages (emails or SMS) as **spam** or **ham (not spam)**. This app is built using **Python**, **Scikit-learn**, and **Streamlit** to provide an interactive and user-friendly interface for spam detection.
 
@@ -17,8 +17,8 @@ Here are some example inputs to test the app:
 
 | Input Example                                                      | Predicted Output | Example Image                         |
 |---------------------------------------------------------------------|------------------|---------------------------------------|
-| "Hi, are we still on for the meeting tomorrow?"                    | **Ham**          | ![Ham Example](images/example_ham.png) |
-| "Congratulations! You've won a $1,000 gift card. Click to claim!"  | **Spam**         | ![Spam Example](images/example_spam.png) |
+| "Hi, are we still on for the meeting tomorrow?"                    | **Ham**          | ![Ham Example](https://github.com/MUSTAKIMSHAIKH2942/Email-spam-detection-app/blob/main/project_spam/spam-detection/img/Captureoutputing.JPG) |
+| "Congratulations! You've won a $1,000 gift card. Click to claim!"  | **Spam**         | ![Spam Example](https://github.com/MUSTAKIMSHAIKH2942/Email-spam-detection-app/blob/main/project_spam/spam-detection/img/spamoutput.JPG) |
 
 ---
 
@@ -45,18 +45,9 @@ Open the app in your browser (usually at http://localhost:8501).
 
 ## Project Structure
 
-spam-detection-app/
-├── data/                     # Dataset directory
-│   ├── spam.csv              # Input dataset (SMS/email spam)
-├── scripts/                  # Scripts for preprocessing and training
-│   ├── preprocess.py         # Text preprocessing functions
-│   ├── train_model.py        # Model training script
-├── spam_classifier.pkl       # Saved trained classifier
-├── vectorizer.pkl            # Saved vectorizer for text transformation
-├── app.py                    # Streamlit app for UI
-├── main.py                   # Script for model training and testing
-├── requirements.txt          # Required Python packages
-└── README.md                 # Project documentation
+ ![Project Structure Example](https://github.com/MUSTAKIMSHAIKH2942/Email-spam-detection-app/blob/main/project_spam/spam-detection/img/runningapp.JPG) |
+
+
 How It Works
 
 Preprocessing: Input text is cleaned (removal of stopwords, punctuation, etc.) and transformed into numerical features using TF-IDF vectorization.
