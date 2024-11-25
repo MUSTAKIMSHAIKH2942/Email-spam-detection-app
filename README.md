@@ -4,6 +4,7 @@ A **Machine Learning-powered application** for classifying messages (emails or S
 
 ---
 
+
 ## **Features**
 - Pre-trained **Naive Bayes classifier** for spam detection.
 - Interactive UI for single-message classification.
